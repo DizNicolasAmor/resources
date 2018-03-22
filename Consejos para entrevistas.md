@@ -148,3 +148,10 @@ En primer lugar, señalar uno o dos de cada uno. No irse por las ramas.
 
 Visitar este [repositorio](https://github.com/h5bp/Front-end-Developer-Interview-Questions) con interesantes preguntas sobre el tema. 
 
+También, puede que te tomen una evaluación. En mi experiencia, lo más probable es que sea de una de dos posibilidades: 
+- Imitar el diseño de una landing page (suma si además lo hacés responsive usando flex o grids o ambos).  
+- Desarrollar una app sencilla. Por ejemplo: 
+  - un formulario (practicar los distintos tipos de inputs y otros tags relacionados, y cómo manejar esos datos en el js) 
+  - o una tienda (donde muestres los productos que traés desde una API. Suma si además hacés para cada uno otra página y manejar el routing).
+
+Estas ideas pueden practicarse de antemano y además incluir los proyectos de estas apps en tu portfolio.  
