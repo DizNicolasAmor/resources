@@ -1,0 +1,24 @@
+//products-grid.sass
+#products
+  width: 100%
+  overflow: hidden
+  padding: 20px 15%
+  display: grid
+  grid-gap: 10px 10px
+  grid-template-columns: repeat(1, 1fr)
+
+@media screen and (min-width: 600px)
+  #products
+    grid-template-columns: repeat(2, 1fr)
+  
+@media screen and (min-width: 900px)
+  #products
+    grid-template-columns: repeat(3, 1fr)
+  
+@media screen and (min-width: 1200px)
+  #products
+    grid-template-columns: repeat(4, 1fr)
+
+@media screen and (min-width: 1400px)
+  #products
+    grid-template-columns: repeat(5, 1fr)
