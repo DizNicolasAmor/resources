@@ -1,0 +1,46 @@
+@mixin displayFlex($important: false){
+	@if $important {
+		display: -webkit-box !important;      /* OLD - iOS 6-, Safari 3.1-6 */
+		display: -moz-box !important;         /* OLD - Firefox 19- (buggy but mostly works) */
+		display: -ms-flexbox !important;      /* TWEENER - IE 10 */
+		display: -webkit-flex !important;     /* NEW - Chrome */
+		display: flex !important;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+	} @else {
+		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+		display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+		display: -ms-flexbox;      /* TWEENER - IE 10 */
+		display: -webkit-flex;     /* NEW - Chrome */
+		display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+	}
+}
+@mixin inlineFlex($important: false){
+	@if $important {
+		display: -webkit-inline-flex !important;
+		display: -ms-inline-flexbox !important;
+		display: inline-flex !important;
+	} @else {
+		display: -webkit-inline-flex;
+		display: -ms-inline-flexbox;
+		display: inline-flex;
+	}
+}
+@mixin flex-direction($value: column){
+	-webkit-flex-direction: $value;
+	flex-direction: $value;
+}
+@mixin alignItems($value: center){
+	-webkit-align-items: $value;
+	-ms-align-items: $value;
+	align-items: $value;
+}
+@mixin justify-content($value: center){
+	-webkit-justify-content: $value;
+	-ms-flex-pack: $value; /*ie 10*/
+	justify-content: $value;
+}
+@mixin centerFlex{
+	display: flex;
+	@include alignItems(center);
+	@include justify-content(center);
+}
+
