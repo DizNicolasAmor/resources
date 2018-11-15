@@ -20,3 +20,11 @@ export const absoluteCenter = () => `
 	bottom: 0;
 	left: 0;
 `;
+
+export const displayFlex = important => `
+	display: -webkit-box ${important ? '!important' : ''};
+	display: -moz-box ${important ? '!important' : ''};
+	display: -ms-flexbox ${important ? '!important' : ''};
+	display: -webkit-flex ${important ? '!important' : ''};
+	display: flex ${important ? '!important' : ''};
+`;
