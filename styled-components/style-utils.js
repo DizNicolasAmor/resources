@@ -7,12 +7,6 @@ export const truncate = width => `
     text-overflow: ellipsis;
 `;
 
-export const alignItems = value => `
-	-webkit-align-items: ${value};
-	-ms-align-items: ${value};
-	align-items: ${value};
-`;
-
 export const absoluteCenter = () => `
 	position: absolute;
 	top: 0;
@@ -27,4 +21,16 @@ export const displayFlex = important => `
 	display: -ms-flexbox ${important ? '!important' : ''};
 	display: -webkit-flex ${important ? '!important' : ''};
 	display: flex ${important ? '!important' : ''};
+`;
+
+export const alignItems = value => `
+	-webkit-align-items: ${value};
+	-ms-align-items: ${value};
+	align-items: ${value};
+`;
+
+export const justifyContent = value => `
+	-webkit-justify-content: ${value};
+	-ms-flex-pack: ${value};
+	justify-content: ${value};
 `;
