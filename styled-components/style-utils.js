@@ -34,3 +34,11 @@ export const justifyContent = value => `
 	-ms-flex-pack: ${value};
 	justify-content: ${value};
 `;
+
+export const textEllipsis = lines => `
+	display: inline-block;
+	display: -webkit-box;
+	-webkit-line-clamp: ${lines};
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+`;
