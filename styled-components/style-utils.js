@@ -42,3 +42,13 @@ export const textEllipsis = lines => `
 	-webkit-box-orient: vertical;
 	overflow: hidden;
 `;
+
+export const resetButton = () => `
+        background: none;
+        border: none;
+        cursor: pointer;
+        &:focus,
+        &:focus-within {
+            outline: none;
+        }
+`;
