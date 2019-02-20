@@ -1,0 +1,8 @@
+<p class="gradient-text">Gradient text</p>
+
+.gradient-text {
+  background: -webkit-linear-gradient(DarkRed, orange);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
