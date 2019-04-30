@@ -1,0 +1,5 @@
+# mongo
+$ sudo apt-get update
+$ sudo apt-get install mongodb
+$ sudo service mongodb start
+$ mongo
