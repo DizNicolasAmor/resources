@@ -1,3 +1,65 @@
+/* Case 1 - Stack as an array */
+class Stack {
+  constructor() {
+    this.stack = [];
+  }
+  
+  push(...element) {
+    this.stack.push(...element);
+    return this.stack;
+  }
+  
+  pop() {
+    return this.stack.pop();
+  }
+  
+  peek() {
+    return this.stack[this.stack.length - 1];
+  }
+  
+  size() {
+    return this.stack.length;
+  }
+
+  print() {
+    console.log(this.stack);
+  }
+}
+
+/* Case 2 - Stack as an object */
+class Stack {
+  constructor() {
+    this.stack = {};
+    this.count = 0;
+  }
+
+  push(element) {
+    this.stack[this.count] = element;
+    this.count++;
+    return this.stack;
+  }
+
+  pop() {
+    this.count--;
+    const element = this.stack[this.count];
+    delete this.stack[this.count];
+    return element;
+  }
+
+  peek() {
+    return this.stack[this.count - 1];
+  }
+
+  size() {
+    return this.count;
+  }
+
+  print() {
+    console.log(this.stack);
+  }
+}
+
+/* Case 3 - Alternative Stack as an array */
 class Stack {
 	constructor(...items) {
 		this.reverse = false;
