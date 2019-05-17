@@ -1,0 +1,2 @@
+# give access to your hook
+$ chmod +x hooks/your-hook
