@@ -5,3 +5,5 @@
 {{eval "Handlebars.registerHelper('first', function(array) { return array[0]; });" }}
 
 {{eval "Handlebars.registerHelper('toLowerCase', function(str) { try{ return str.toLowerCase(); } catch(err) { return err; } });" }}
+
+{{eval "Handlebars.registerHelper('fullName', function(person) { return person.firstName + ' ' + person.lastName; });" }}
