@@ -35,6 +35,12 @@ export const justifyContent = value => `
 	justify-content: ${value};
 `;
 
+export const gridCenter = () => `
+  display: grid;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const textEllipsis = lines => `
 	display: inline-block;
 	display: -webkit-box;
