@@ -1,0 +1,20 @@
+<input id="collapseId" type="checkbox">
+<label for="collapseId">COLLAPSE TITLE</label>
+<div class="collapse__content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+</div>
+
+<style>
+    .collapse__content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s;
+    }
+    #collapseId { display: none; }
+    #collapseId:checked ~ .collapse__content {
+        max-height: 100px; /* higher than .collapse__content */
+    }
+</style>
+
