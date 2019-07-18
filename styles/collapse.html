@@ -1,0 +1,33 @@
+<button class="collapse__title">COLLAPSE TITLE</button>
+<div class="collapse__content">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+
+<style>
+    .collapse__title {
+        cursor: pointer;
+    }
+    .collapse__content {
+        height: auto;
+		max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s;
+    }
+    .collapse__content.opened {
+        max-height: 50vh; /* much higher than your content */
+    }
+</style>
+
+<script>
+    const collapseTitle = document.querySelector('.collapse__title');
+    const toggleCollapse = () => {
+        const collapseContent = document.querySelector('.collapse__content');
+        const isCollapseOpened = collapseContent.classList.contains('opened');
+        if (isCollapseOpened) collapseContent.classList.remove('opened');
+            else collapseContent.classList.add('opened');
+    };
+
+    if (collapseTitle)
+        collapseTitle.addEventListener('click', toggleCollapse, false)
+</script>
+
