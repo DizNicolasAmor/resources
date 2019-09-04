@@ -2,6 +2,8 @@
 #
 # Automatically adds branch name and branch description to every commit message.
 #
+# Paste this file into `.git/hooks/` directory and set executable permissions: `chmod +x .git/hooks/pre-push`
+
 NAME=$(git branch | grep '*' | sed 's/* //')
 DESCRIPTION=$(git config branch."$NAME".description)
 
