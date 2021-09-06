@@ -1,8 +1,6 @@
 ## Consejos para entrevistas
 
-Es un resumen de los libros recomendados por [Medallia](http://www.medallia.com.ar/internships/) para prepararse para las entrevistas.
-
-_Páginas 1 a la 50._
+> Este archivo es un resumen de las primeras páginas del libro "Cracking the Coding Interview".
 
 ### PRIMERAS SUGERENCIAS:
 
