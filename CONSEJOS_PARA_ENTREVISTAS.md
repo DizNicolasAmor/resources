@@ -1,15 +1,33 @@
-## Consejos para entrevistas
+# Consejos para entrevistas
 
 > Este archivo es un resumen de las primeras páginas del libro "Cracking the Coding Interview".
 
-### PRIMERAS SUGERENCIAS:
+## ÍNDICE
+
+- [01. PRIMERAS SUGERENCIAS](#parte-01)
+- [02. HABILIDADES BLANDAS](#parte-02)
+- [03. ABORDAR UN PROBLEMA](#parte-03)
+- [04. EN TU CV](#parte-04)
+- [05. PREGUNTAS SOBRE TUS PROYECTOS](#parte-05)
+- [06. CUÁNTO DINERO PRETENDÉS GANAR](#parte-06)
+- [07. CUÁLES SON TUS VIRTUDES Y DEFECTOS](#parte-07)
+- [08. HACER PREGUNTAS A TUS ENTREVISTADORES](#parte-08)
+- [09. TEMAS TÉCNICOS DE LAS ENTREVISTAS](#parte-09)
+- [10. CINCO FORMAS DE ABORDAR LOS ALGORITMOS](#parte-10)
+- [11. PARA ENTREVISTAS DE FRONT END](#parte-11)
+
+<a name="parte-01"/>
+
+## 01. PRIMERAS SUGERENCIAS
 
 - Escribir código en papel.
 - Conocer tu CV.
 - No memorizar respuestas.
 - Contar en voz alta tu razonamiento para abordar el problema.
 
-### HABILIDADES BLANDAS:
+<a name="parte-02"/>
+
+## 02. HABILIDADES BLANDAS
 
 Los entrevistadores también evalúan aptitudes sociales (no sólo técnicas). Tené en cuenta que van a decidir quién será su compañero 40hs/semana los próximos meses. Cuando te conozcan, se preguntarán "¿Estoy dispuesto a tomar una cerveza con esta persona?". Entonces, no sólo hay que demostrarles que sabés programar, sino también que:
 
@@ -29,7 +47,9 @@ Los entrevistadores también evalúan aptitudes sociales (no sólo técnicas). T
 - Estaba extremadamente nervioso.
 - Estaba más interesado en las vacaciones que en el trabajo.
 
-### A LA HORA DE ABORDAR UN PROBLEMA:
+<a name="parte-03"/>
+
+## 03. ABORDAR UN PROBLEMA
 
 1. Asegurate de comprender la consigna!! //hacé preguntas para aclarar y especificar.
 
@@ -44,7 +64,9 @@ Los entrevistadores también evalúan aptitudes sociales (no sólo técnicas). T
 5. Si te atoraste, intentá con otros ejemplos.
 6. A veces hay que considerar herramientas específicas de cada lenguaje (bit operations, union types, casting, etc.).
 
-### EN TU CV:
+<a name="parte-04"/>
+
+## 04. EN TU CV
 
 Los entrevistadores van a preguntarse sólo dos cosas:
 
@@ -57,7 +79,9 @@ Al ver tu CV tienen que poder responder claramente esas preguntas. Entonces, con
 - Si no tenés experiencia, en vez de hacer un apartado que diga "experiencia", podés hacer uno que diga "proyectos" e incluir los 4 mejores.
 - Explicar brevemente para c/proyecto qué tecnología usaste (y si es posible, qué herramienta concretamente) para resolver qué problema.
 
-### PREGUNTAS SOBRE TUS PROYECTOS:
+<a name="parte-05"/>
+
+## 05. PREGUNTAS SOBRE TUS PROYECTOS
 
 Para c/u de tus 4 proyectos más importantes (que pusiste en tu CV), explicá:
 
@@ -71,7 +95,9 @@ Para c/u de tus 4 proyectos más importantes (que pusiste en tu CV), explicá:
 
 Es recomendable que tus respuestas sean breves (menos de 10 segundos).
 
-### CUÁNTO DINERO PRETENDÉS GANAR
+<a name="parte-06"/>
+
+## 06. CUÁNTO DINERO PRETENDÉS GANAR
 
 Ante esta pregunta, en lugar de dar una cifra exacta, planteo un rango (es decir, doy una cifra mínima y una máxima) y les digo que se puede negociar depende de las siguientes condiciones:
 
@@ -82,14 +108,18 @@ Ante esta pregunta, en lugar de dar una cifra exacta, planteo un rango (es decir
 - el ambiente y las condiciones de trabajo
   > (esto en realidad conviene averiguarlo de antemano preguntándole a otras personas que ya hayan trabajado en la empresa. También es válido considerar temas como si el barrio de la empresa es peligroso, si hay pocos medios de transporte, o si el equipo de trabajo es de mala calidad, es decir, si te dan un monitor y una silla que te van a estropear la vista y la espalda a los dos meses de laburo).
 
-### CUÁLES SON TUS VIRTUDES / DEFECTOS:
+<a name="parte-07"/>
+
+## 07. CUÁLES SON TUS VIRTUDES Y DEFECTOS
 
 En primer lugar, señalar uno o dos de cada uno. No irse por las ramas.
 
 - En cuanto a las virtudes, evitar parecer soberbio.
 - En cuanto a los defectos, evitar las frases hechas como "soy perfeccionista", "trabajo mucho", etc. (porque vas a quedar como alguien poco sincero y que está escapando a la pregunta). En su lugar, es preferible señalar sinceramente algún defecto que reconozcas que tengas y luego explicar cómo estás trabajando para mejorar.
 
-### HACER PREGUNTAS A TUS ENTREVISTADORES
+<a name="parte-08"/>
+
+## 08. HACER PREGUNTAS A TUS ENTREVISTADORES
 
 - Investigar sobre la empresa y pensar una o dos buenas preguntas. Es recomendable xq así demostrás tu compromiso.
 
@@ -110,7 +140,9 @@ En primer lugar, señalar uno o dos de cada uno. No irse por las ramas.
   - cómo podría mejorarse.
   - si cambiarían algo y por qué.
 
-### TEMAS TÉCNICOS DE LAS ENTREVISTAS
+<a name="parte-09"/>
+
+## 09. TEMAS TÉCNICOS DE LAS ENTREVISTAS
 
 Te van a pedir que expliques cómo y cuándo implementar alguno de los siguientes temas:
 
@@ -124,7 +156,9 @@ Te van a pedir que expliques cómo y cuándo implementar alguno de los siguiente
 | Vectors/ ArrayLists | Tree insert/find/etc |                Big-O time |
 | Hash Tables         |                      |                           |
 
-### CINCO FORMAS DE ABORDAR LOS ALGORITMOS
+<a name="parte-10"/>
+
+## 10. CINCO FORMAS DE ABORDAR LOS ALGORITMOS
 
 1. EJEMPLIFICAR.
 2. RECONOCER PATRONES.
@@ -136,7 +170,9 @@ Te van a pedir que expliques cómo y cuándo implementar alguno de los siguiente
 5. BRAINSTORM DE DATA STRUCTURES
    > Recorrer las herammientas que podés usar y pensar cuál podría servirte o no y por qué.
 
-### PARA ENTREVISTAS DE FRONT END
+<a name="parte-11"/>
+
+## 11. PARA ENTREVISTAS DE FRONT END
 
 Visitar este [repositorio](https://github.com/h5bp/Front-end-Developer-Interview-Questions) con interesantes preguntas sobre el tema.
 
