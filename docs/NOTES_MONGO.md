@@ -1,3 +1,6 @@
+# NOTES MONGO
+
+```
 # update apps and install mongo
 $ sudo apt-get update
 $ sudo apt-get install mongodb
@@ -7,3 +10,4 @@ $ sudo service mongodb start
 
 # see mongo info
 $ mongo
+```

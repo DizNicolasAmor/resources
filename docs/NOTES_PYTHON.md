@@ -1,5 +1,8 @@
-# reset_migrations_in_python_project
+# NOTES PYTHON
 
+** Reset migrations
+
+```
 # 1. remove __pycache__ directories
 
 # 2. remove migrations files like 0001_initial.py (do not remove the __init__.py file).
@@ -12,3 +15,4 @@ $ python3 manage.py make migrations
 
 # 5. migrate
 $ python3 manage.py migrate
+```
