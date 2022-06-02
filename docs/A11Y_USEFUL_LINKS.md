@@ -21,3 +21,24 @@ Tools:
 - Check supported features: https://a11ysupport.io/
 - Hiding content visually: https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content
 - More information: https://www.deque.com/blog/5-digital-accessibility-myths-busted/
+
+Snippets:
+
+- `constants.js`
+
+    ```
+    export const KEYBOARD_KEYS = {
+        ARROW_DOWN: 'ArrowDown',
+        ARROW_LEFT: 'ArrowLeft',
+        ARROW_RIGHT: 'ArrowRight',
+        ARROW_UP: 'ArrowUp',
+        END: 'End',
+        ENTER: 'Enter',
+        ESC: 'Esc',
+        ESCAPE: 'Escape',
+        HOME: 'Home',
+        SPACE: 'Space',
+        SPACE_IE: ' ',
+        TAB: 'Tab',
+    };
+    ```
