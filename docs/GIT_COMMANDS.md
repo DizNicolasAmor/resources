@@ -23,7 +23,7 @@ $ git pull mybundle
 git config credential.helper 'cache --timeout=600'
 ```
 
-# SET PROJECT TO REMOTE PROJECT
+## SET PROJECT TO REMOTE PROJECT
 
 ```
 # inside your repo delete old git data
@@ -57,4 +57,20 @@ git merge upstream/master
 
 # 5. push your local changes into your remote fork
 git push origin master
+```
+
+## CLEAN REPO
+
+```
+$ git clean -Xdf
+```
+
+## RESETTING LAST COMMITS
+
+```
+# Remove last commit and leave the changes in staging area
+$ git reset --soft HEAD~1
+
+# Remove last commit entirely
+$ git reset --hard HEAD~1
 ```
