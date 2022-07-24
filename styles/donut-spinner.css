@@ -1,5 +1,8 @@
-<div class="donut"></div>
-
+/*
+<div class="donut" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+*/
 
 @keyframes donut-spin {
   0% {
