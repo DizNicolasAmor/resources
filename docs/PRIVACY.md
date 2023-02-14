@@ -2,7 +2,7 @@
 
 ## GPG
 
-It is a tool ti encrypt and decrypt files and directories.
+It is a tool to encrypt and decrypt files and directories.
 
 ```
 # it will create a MY_FILE.txt.gpg file
@@ -13,4 +13,17 @@ gpg -d MY_FILE.txt.gpg
 
 # it will decrypt the file and save it in a new MY_FILE.txt file
 gpg -d MY_FILE.txt.gpg > MY_FILE.txt
+```
+
+## ccrypt
+
+```
+# install ccrypt
+sudo apt-get install ccrypt
+
+# encrypt a file. It will generate a .cpt file
+ccencrypt <filename>
+
+# decrypt a file
+ccdecrypt <filename.cpt>
 ```
