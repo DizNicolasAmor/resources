@@ -49,3 +49,11 @@ touch EncryptedVolume
 # To see the directory, you will have to open VeraCrypt and Mount the volume.
 # To hide it you will have to Dismount it.
 ```
+
+## Verify PGP signature
+
+1. Download the public key (`.asc` file) of the software author. Example: `wget https://www.someresource.xyz/my-file_public_key.asc`.
+1. Check the public key’s fingerprint. Example: `gpg --show-keys my-file_public_key.asc`. Then compare the key with the one shown in the author's website.
+1. Import the correct public key to your GPG public keyring. Example: `gpg --import my-file_public_key.asc`.
+1. Download the PGP signature file (`.sig`) of the software.
+1. Use public key to verify PGP signature. Example: `gpg --verify my-file.deb.sig my-file.deb`.
