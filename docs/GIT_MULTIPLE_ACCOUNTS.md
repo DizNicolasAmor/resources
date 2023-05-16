@@ -2,6 +2,7 @@
 
 Sources:
 
+- https://psychowhiz.medium.com/configuring-multiple-ssh-keys-for-git-on-the-same-device-41c29320e5fe
 - https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/
 
 Summary:
@@ -12,19 +13,19 @@ Summary:
 4. Create SSH config File:
 
    ```
-   Host user1 github.com
+   Host personal.github.com
    HostName github.com
    User git
    IdentityFile ~/.ssh/id_rsa
 
-   Host user2 github.com
+   Host work.github.com
    HostName github.com
    User git
    IdentityFile ~/.ssh/id_rsa_work_account2
    ```
 
 5. Set a Git repo configuration.
-   - For example if you wanna work on `https://github.com/someuser/some-repo` repository, clone it with SSH (`git@github.com:someuser/some-repo.git`), but replace the `github.com` part with the username you wanna use. This should match with the info from previous `config` file. if you will use `user2`, then clone the repo with `git@user2:someuser/some-repo.git`
+   - For example if you wanna work on `https://github.com/someuser/some-repo` repository with your personal account, clone it with SSH (`git@personal.github.com:someuser/some-repo.git`). Note that *personal.github.com* matches with the info from previous `config` file. If you wanna use your work account, then clone the repo with `git@work.github.com:someuser/some-repo.git`
 6. After cloning the repository, set the user name and user email you will use for that project:
    ```
    # updates git config user name and email
