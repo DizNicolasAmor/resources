@@ -31,3 +31,9 @@ sudo apt update & sudo apt install imagemagick
 # use the convert app
 convert yourImage.jpg yourResult.pdf
 ```
+
+# Get system information in linux
+
+```
+sudo dmidecode -t system
+```
