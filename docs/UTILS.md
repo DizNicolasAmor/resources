@@ -37,3 +37,17 @@ convert yourImage.jpg yourResult.pdf
 ```
 sudo dmidecode -t system
 ```
+
+# Kill process on port
+
+For example, supose there is a process on port 3000.
+
+```
+# On Linux/Mac OS
+$ lsof -i tcp:3000
+$ kill -9 PID # replace PID by the target process id
+
+# On Windows
+$ netstat -ano | findstr :3000
+$ tskill typeyourPIDhere # change tskill for taskkill in git bash
+```
