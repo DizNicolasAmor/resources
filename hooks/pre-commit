@@ -1,0 +1,5 @@
+#!/bin/sh
+
+npm run lint || { echo "Please fix the ESLint errors before committing." && exit 1; }
+npm run test || { echo "Please fix the test errors before committing." && exit 1; }
+exit 0
