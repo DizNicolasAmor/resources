@@ -1,0 +1,32 @@
+<form action="">
+	<div>
+		<label for="id-input-with-arrows">
+			Input of type number with arrows
+		</label>
+		<input
+			id="id-input-with-arrows"
+			name="widharrows"
+			type="number"
+		/>
+	</div>
+
+	<div>
+		<label for="id-input-without-arrows">
+			Input of type number without arrows
+		</label>
+		<input
+			class="without-arrows"
+			id="id-input-without-arrows"
+			name="without-arrows"
+			type="number"
+		/>
+	</div>
+</form>
+
+<style>
+	input[type=number].without-arrows::-webkit-inner-spin-button,
+	input[type=number].without-arrows::-webkit-outer-spin-button {
+		-webkit-appearance: none;
+		margin: 0;
+	}
+</style>

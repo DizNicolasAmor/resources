@@ -1,6 +1,0 @@
-input[type=number].without_number::-webkit-inner-spin-button,
-input[type=number].without_number::-webkit-outer-spin-button {
-	-webkit-appearance: none;
-	margin: 0;
-}
-
