@@ -4,5 +4,6 @@ const truncateString = (str, max) => {
   return str;
 };
 
-// const str1 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit';
-// console.log(truncateString(str1, 36));
+const example = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit';
+
+console.log(truncateString(example, 36));
