@@ -1,11 +1,14 @@
 function memoizer(fun){
-    let cache = {};
+    const cache = {};
 
     return function (n){
-        if (cache[n]) return cache[n];
+        if (cache[n]) {
+            return cache[n];
+        }
 
-        let result = fun(n);
+        const result = fun(n);
         cache[n] = result;
+
         return result;
     }
 };
