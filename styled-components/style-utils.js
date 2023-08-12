@@ -1,5 +1,3 @@
-// style-utils.js
-
 export const truncate = width => `
     width: ${width};
     white-space: nowrap;
@@ -36,9 +34,9 @@ export const justifyContent = value => `
 `;
 
 export const gridCenter = () => `
-  display: grid;
-  justify-content: center;
-  align-items: center;
+	display: grid;
+	justify-content: center;
+	align-items: center;
 `;
 
 export const textEllipsis = lines => `
@@ -50,11 +48,11 @@ export const textEllipsis = lines => `
 `;
 
 export const resetButton = () => `
-        background: none;
-        border: none;
-        cursor: pointer;
-        &:focus,
-        &:focus-within {
-            outline: none;
-        }
+	background: none;
+	border: none;
+	cursor: pointer;
+	&:focus,
+	&:focus-within {
+		outline: none;
+	}
 `;
