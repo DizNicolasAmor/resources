@@ -51,3 +51,20 @@ $ kill -9 PID # replace PID by the target process id
 $ netstat -ano | findstr :3000
 $ tskill typeyourPIDhere # change tskill for taskkill in git bash
 ```
+
+# File System Consistency Check (fsck)
+
+The fsck (File System Consistency Check) Linux utility checks filesystems for errors or outstanding issues. The tool is used to fix potential errors and generate reports.
+
+Examples:
+
+```
+# run fsck in your disk placed on sdb
+fsck /dev/sdb
+
+# Fix Detected Errors Automatically
+# Pass the -y option
+# It is like saying "yes, try to fix all detected errors"
+# without being prompted every time.
+fsck -y /dev/sdb
+```
