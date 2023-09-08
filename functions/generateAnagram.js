@@ -1,6 +1,11 @@
-const generateAnagram = (str) => {
-  return str.split('').sort(()=> Math.random()-0.5) ;
-}
+export const generateAnagram = (str) =>
+  str.split('').sort(()=> Math.random() - 0.5).join('');
 
-// console.log(generateAnagram('abcde'));
+const testString = 'abcde';
 
+console.log('EASY TEST');
+console.log(`ORIGINAL: ${testString} ---> ANAGRAM: ${generateAnagram(testString)}`);
+console.log(`ORIGINAL: ${testString} ---> ANAGRAM: ${generateAnagram(testString)}`);
+console.log(`ORIGINAL: ${testString} ---> ANAGRAM: ${generateAnagram(testString)}`);
+console.log(`ORIGINAL: ${testString} ---> ANAGRAM: ${generateAnagram(testString)}`);
+console.log(`ORIGINAL: ${testString} ---> ANAGRAM: ${generateAnagram(testString)}`);
