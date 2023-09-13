@@ -6,6 +6,5 @@ const sortArray = (initialArray, sortingReference, sortingFactor) => {
 			return 1;
 		return 0;
 	};
-	return [...initialArr].sort(criteria);
+	return [...initialArray].sort(criteria);
 };
-
