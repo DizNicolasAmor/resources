@@ -1,2 +1,1 @@
-const minDateOf = dates => new Date(Math.min.apply(null, dates);
-
+const minDateOf = dates => new Date(Math.min.apply(null, dates));
