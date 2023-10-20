@@ -11,4 +11,3 @@ const binarySearch = (list, value) => {
 
 	return list[middle] === value ? middle : -1;
 };
-
