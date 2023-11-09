@@ -1,3 +1,4 @@
+// @ts-ignore
 const fs = require('fs');
 
 export const readFileLines = (filename: string): string[] =>
