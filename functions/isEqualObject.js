@@ -1,10 +1,11 @@
-function isEqualObject(obj1, obj2) {
-  if (obj1 === obj2)
+const isEqualObject = (obj1, obj2) => {
+  if (obj1 === obj2) {
     return true;
+  }
 
   const prototypesAreEqual = isEqualObject(
-        Object.getPrototypeOf(obj1), Object.getPrototypeOf(obj2)
-      );
+    Object.getPrototypeOf(obj1), Object.getPrototypeOf(obj2)
+  );
 
   const obj1Props = Object.getOwnPropertyNames(obj1)
   const obj2Props = Object.getOwnPropertyNames(obj2)
@@ -14,5 +15,4 @@ function isEqualObject(obj1, obj2) {
     prototypesAreEqual &&
     obj1Props.every(prop => isEqualObject(obj1[prop], obj2[prop]))
   )
-}
-
+};
