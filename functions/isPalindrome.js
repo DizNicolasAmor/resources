@@ -10,6 +10,3 @@ const isPalindrome = str => {
 
   return true;
 };
-
-// console.log(isPalindrome('abbcbba'));
-// console.log(isPalindrome('abcqwe'));
