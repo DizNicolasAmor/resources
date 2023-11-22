@@ -1,4 +1,4 @@
-const getCookie = (name: string): string => {
+export const getCookie = (name: string): string => {
     const nameLenPlus = name.length + 1;
     return (
         document.cookie
