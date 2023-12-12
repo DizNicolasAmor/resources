@@ -18,3 +18,13 @@ For releases:
 - After the PR is merged, delete the branch in the remote repository.
 - After the merge in `master`, create a tag. For example `git tag -a 1.1.0`.
 - Push the tag.
+
+For hotfixes:
+
+- May branch off from `master` branch.
+- Branch naming convention: `hotfix/*`.
+- Commit some changes and then push it.
+- In gihub/gitlab/bitbucket make PR to `develop` and `master` branches.
+- After the PR is merged, delete the branch in the remote repository.
+- After the merge in `master`, create a tag. For example `git tag -a 1.1.0`.
+- Push the tag.
