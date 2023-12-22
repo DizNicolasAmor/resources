@@ -13,7 +13,7 @@ For releases:
 - May branch off from `develop` branch.
 - Branch naming convention: `release/*`.
 - For example, git checkout -b `release/1.1.0`.
-- Commit some changes (for example the changelog and the version) and then push it.
+- Commit some changes (for example the changelog and the version) and then push it. Make sure there wont be merge conflicts when pointing to `develop` and `master` branches. You will probable need to merge `master` into your release branch and solve conflicts locally before pushing.
 - In gihub/gitlab/bitbucket make PR to `develop` and `master` branches.
 - After the PR is merged, delete the branch in the remote repository.
 - After the merge in `master`, create a tag. For example `git tag -a 1.1.0`.
